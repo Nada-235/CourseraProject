@@ -11,12 +11,11 @@ function Heroe() {
 				<h1>Little Lemon</h1>
 				<h5>Chicago</h5>
 				<p>
-					Lorem ipsum dolor sit amet consectetur. Est
-					aliquet sed laoreet massa pellentesque. Est enim
-					ac auctor ultrices cras ut posuere. Viverra quis
-					volutpat turpis elit aliquam non in. Egestas
-					molestie praesent proin natoque cursus fringilla
-					laoreet at.
+					Little Lemon, a Chi-town gem, serves fresh Med
+					fare with a twist. From hummus to tagines, veggie
+					to meat, their menu's got it all. Come for the
+					Lemon Chicken Pasta, stay for the warm vibes and
+					outdoor patio.
 				</p>
 				<Link to='/Reservation'>
 					<button className={Styles.btn}>

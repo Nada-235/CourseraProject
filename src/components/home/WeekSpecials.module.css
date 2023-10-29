@@ -1,0 +1,179 @@
+.specialsContainer {
+    height: 80vh;
+    padding: 10rem 20rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.specialsContainer h2 {
+    color: rgb(66, 66, 66);
+    font-family: Markazi Text;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 500;
+}
+
+.specialsContainer .btn {
+    width: 200px;
+    height: 50px;
+    border-radius: 1rem;
+    background: #F4CE14;
+    color: #333333;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 700;
+    outline: none;
+    border: none;
+}
+
+.specialsContainer .btn:hover {
+    cursor: pointer;
+    color: #F4CE14;
+    background: #495E57;
+    border: 1px solid #F4CE14;
+}
+
+.specialsContainer .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menuGrid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 4rem;
+    padding: 5rem 0rem;
+}
+
+
+/* Extra Small Devices (phones) */
+@media only screen and (max-width: 600px) {
+    .specialsContainer {
+        height: 80vh;
+        padding: 5rem 1rem;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .specialsContainer .btn {
+        width: fit-content;
+        height: auto;
+        padding: 1.2rem 1rem;
+    }
+
+    .menuGrid {
+        display: grid;
+        grid-template-columns: 1fr;
+        padding: 3rem 1rem;
+        gap: 3rem;
+    }
+}
+
+/* Small Devices (tablets) */
+@media only screen and (min-width: 601px) and (max-width: 768px) {
+    .specialsContainer {
+        height: 80vh;
+        padding: 5rem 1rem;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .specialsContainer .btn {
+        width: fit-content;
+        height: auto;
+        padding: 1.2rem 1rem;
+    }
+
+    .menuGrid {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        padding: 3rem 1rem;
+        gap: 1rem;
+    }
+
+    .specialsContainer .header {
+        padding: 0rem 2rem;
+    }
+}
+
+/* Medium Devices (desktops) */
+@media only screen and (min-width: 769px) and (max-width: 992px) {
+    .specialsContainer {
+        height: 80vh;
+        padding: 5rem 1rem;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .specialsContainer .btn {
+        width: fit-content;
+        height: auto;
+        padding: 1.2rem 1rem;
+    }
+
+    .menuGrid {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        padding: 3rem 1rem;
+        gap: 1rem;
+    }
+
+    .specialsContainer .header {
+        padding: 0rem 1rem;
+    }
+}
+
+/* Large Devices (desktops) */
+@media only screen and (min-width: 993px) and (max-width: 1200px) {
+        .specialsContainer {
+                height: 80vh;
+                padding: 5rem 1rem;
+                display: flex;
+                flex-direction: column;
+            }
+        
+            .specialsContainer .btn {
+                width: fit-content;
+                height: auto;
+                padding: 1.2rem 1rem;
+            }
+        
+            .menuGrid {
+                display: grid;
+                grid-template-columns: 1fr 1fr 1fr;
+                padding: 3rem 1rem;
+                gap: 1rem;
+            }
+        
+            .specialsContainer .header {
+                padding: 0rem 1rem;
+            }
+}
+
+/* Extra Large Devices (large desktops) */
+@media only screen and (min-width: 1201px) and (max-width: 1400px) {
+            .specialsContainer {
+                    height: 80vh;
+                    padding: 5rem 1rem;
+                    display: flex;
+                    flex-direction: column;
+                }
+            
+                .specialsContainer .btn {
+                    width: fit-content;
+                    height: auto;
+                    padding: 1.2rem 1rem;
+                }
+            
+                .menuGrid {
+                    display: grid;
+                    grid-template-columns: 1fr 1fr 1fr;
+                    padding: 3rem 1rem;
+                    gap: 1rem;
+                }
+            
+                .specialsContainer .header {
+                    padding: 0rem 1rem;
+                }
+}

@@ -1,0 +1,238 @@
+.cardContainer {
+    display: flex;
+    flex-direction: column;
+    height: 27rem;
+    background-color: #EDEFEE;
+    border-radius: 1rem 1rem 0rem 0rem;
+    /* gap: 0.8rem; */
+    justify-content: space-evenly;
+}
+
+.imageCard {
+    width: 100%;
+    height: 10rem;
+    object-fit: cover;
+    border-radius: 1rem 1rem 0rem 0rem;
+    position: relative;
+    top: -1rem;
+}
+
+.cardHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0rem 1.5rem;
+}
+
+.cardHeader h3 {
+    font-family: Markazi Text;
+    font-size: 1.3rem;
+}
+
+.cardHeader h5 {
+    font-family: Markazi Text;
+    font-size: 1rem;
+    color: #EE9972;
+}
+
+.cardContainer p {
+    padding: 0rem 1.5rem;
+    color: #495E57;
+    font-size: 1rem;
+    font-style: normal;
+    line-height: 150%;
+}
+
+.delivery {
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem;
+}
+
+.icon {
+    width: 1.3rem;
+    height: auto;
+}
+
+/* Extra Small Devices (phones) */
+@media only screen and (max-width: 600px) {
+    .cardContainer {
+        display: flex;
+        flex-direction: column;
+        height: 27rem;
+        background-color: #EDEFEE;
+        border-radius: 1rem 1rem 0rem 0rem;
+        justify-content: space-evenly;
+    }
+
+}
+
+/* Small Devices (tablets) */
+@media only screen and (min-width: 601px) and (max-width: 768px) {
+
+    .imageCard {
+        width: 100%;
+        min-height: 8rem;
+        top: 0rem;
+    }
+
+    .cardContainer {
+        display: flex;
+        flex-direction: column;
+        height: 31rem;
+        gap: 1rem;
+        background-color: #EDEFEE;
+        border-radius: 0.5rem 0.5rem 0rem 0rem;
+        justify-content: flex-start;
+    }
+
+    .cardContainer p {
+        min-height: 11rem;
+        font-size: 0.9rem;
+        line-height: 130%;
+        padding: 0rem 1rem;
+    }
+
+    .cardHeader {
+        padding: 0rem 1rem;
+    }
+
+    .cardHeader h3 {
+        font-size: 1.2rem;
+    }
+
+    .delivery {
+        padding: 1rem;
+    }
+
+    .delivery h4 {
+        font-size: 0.9rem;
+    }
+}
+
+/* Medium Devices (desktops) */
+@media only screen and (min-width: 769px) and (max-width: 992px) {
+    .imageCard {
+        width: 100%;
+        min-height: 8rem;
+        top: 0rem;
+    }
+
+    .cardContainer {
+        display: flex;
+        flex-direction: column;
+        height: 29rem;
+        gap: 1rem;
+        background-color: #EDEFEE;
+        border-radius: 0.5rem 0.5rem 0rem 0rem;
+        justify-content: flex-start;
+    }
+
+    .cardContainer p {
+        min-height: 8rem;
+        font-size: 0.9rem;
+        line-height: 130%;
+        padding: 0rem 1rem;
+    }
+
+    .cardHeader {
+        padding: 0rem 1rem;
+    }
+
+    .cardHeader h3 {
+        font-size: 1.2rem;
+    }
+
+    .delivery {
+        padding: 1rem;
+    }
+
+    .delivery h4 {
+        font-size: 0.9rem;
+    }
+}
+
+/* Large Devices (desktops) */
+@media only screen and (min-width: 993px) and (max-width: 1200px) {
+    .imageCard {
+        width: 100%;
+        min-height: 8rem;
+        top: 0rem;
+    }
+
+    .cardContainer {
+        display: flex;
+        flex-direction: column;
+        height: 28rem;
+        gap: 1rem;
+        background-color: #EDEFEE;
+        border-radius: 0.5rem 0.5rem 0rem 0rem;
+        justify-content: flex-start;
+    }
+
+    .cardContainer p {
+        min-height: 7rem;
+        font-size: 0.9rem;
+        line-height: 130%;
+        padding: 0rem 1rem;
+    }
+
+    .cardHeader {
+        padding: 0rem 1rem;
+    }
+
+    .cardHeader h3 {
+        font-size: 1.2rem;
+    }
+
+    .delivery {
+        padding: 1rem;
+    }
+
+    .delivery h4 {
+        font-size: 0.9rem;
+    }
+}
+
+/* Extra Large Devices (large desktops) */
+@media only screen and (min-width: 1201px) and (max-width: 1400px) {
+    .imageCard {
+        width: 100%;
+        min-height: 8rem;
+        top: 0rem;
+    }
+
+    .cardContainer {
+        display: flex;
+        flex-direction: column;
+        height: 28rem;
+        gap: 1rem;
+        background-color: #EDEFEE;
+        border-radius: 0.5rem 0.5rem 0rem 0rem;
+        justify-content: flex-start;
+    }
+
+    .cardContainer p {
+        min-height: 7rem;
+        font-size: 0.9rem;
+        line-height: 130%;
+        padding: 0rem 1rem;
+    }
+
+    .cardHeader {
+        padding: 0rem 1rem;
+    }
+
+    .cardHeader h3 {
+        font-size: 1.2rem;
+    }
+
+    .delivery {
+        padding: 1rem;
+    }
+
+    .delivery h4 {
+        font-size: 0.9rem;
+    }
+}
