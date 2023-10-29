@@ -9,7 +9,7 @@ import OrderOnline from "./pages/OrderOnline";
 import Login from "./pages/login";
 
 import Navbar from "./components/layout/Navbar2";
-// import Footer from "./components/layout/Footer";
+import Footer from "./components/layout/Footer";
 function App() {
 	return (
 		<>
@@ -42,7 +42,7 @@ function App() {
 				/>
 			</Routes>
 
-			{/* <Footer/> */}
+			<Footer/>
 
 		</>
 	);

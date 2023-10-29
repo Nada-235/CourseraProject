@@ -1,5 +1,5 @@
 .specialsContainer {
-    height: 80vh;
+    height: fit-content;
     padding: 10rem 20rem;
     display: flex;
     flex-direction: column;
@@ -50,7 +50,7 @@
 /* Extra Small Devices (phones) */
 @media only screen and (max-width: 600px) {
     .specialsContainer {
-        height: 80vh;
+        height: fit-content;
         padding: 5rem 1rem;
         display: flex;
         flex-direction: column;
@@ -73,7 +73,7 @@
 /* Small Devices (tablets) */
 @media only screen and (min-width: 601px) and (max-width: 768px) {
     .specialsContainer {
-        height: 80vh;
+        height: fit-content;
         padding: 5rem 1rem;
         display: flex;
         flex-direction: column;
@@ -100,7 +100,7 @@
 /* Medium Devices (desktops) */
 @media only screen and (min-width: 769px) and (max-width: 992px) {
     .specialsContainer {
-        height: 80vh;
+        height: fit-content;
         padding: 5rem 1rem;
         display: flex;
         flex-direction: column;
@@ -127,7 +127,7 @@
 /* Large Devices (desktops) */
 @media only screen and (min-width: 993px) and (max-width: 1200px) {
         .specialsContainer {
-                height: 80vh;
+                height: fit-content;
                 padding: 5rem 1rem;
                 display: flex;
                 flex-direction: column;
@@ -154,7 +154,7 @@
 /* Extra Large Devices (large desktops) */
 @media only screen and (min-width: 1201px) and (max-width: 1400px) {
             .specialsContainer {
-                    height: 80vh;
+                    height: fit-content;
                     padding: 5rem 1rem;
                     display: flex;
                     flex-direction: column;
