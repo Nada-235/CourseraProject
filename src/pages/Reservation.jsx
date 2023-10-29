@@ -1,8 +1,10 @@
 import React from 'react'
+import './Reservation.css'
 
+import BookingLayout from '../components/reservasion/BookingLayout'
 function Reservation() {
   return (
-    <div>Reservation</div>
+    <div className='padding'><BookingLayout/></div>
   )
 }
 
