@@ -5,6 +5,7 @@
     grid-template-columns: repeat(2, 1fr);
     padding: 8rem 20rem;
     justify-items: center;
+    gap: 2rem;
 }
 
 .heroContainer img {
@@ -16,7 +17,7 @@
     top: 5rem;
 }
 
-h1 {
+.heroContainer h1 {
     color: #F4CE14;
     font-family: Markazi Text;
     font-size: 56px;
@@ -25,7 +26,7 @@ h1 {
     line-height: 50px;
 }
 
-h5 {
+.heroContainer h5 {
     color: #EDEFEE;
     font-family: Markazi Text;
     font-size: 32px;
@@ -36,7 +37,7 @@ h5 {
     padding-bottom: 1.3rem;
 }
 
-p {
+.heroContainer p {
     color: #EDEFEE;
     font-family: Karla;
     font-size: 1.1rem;
@@ -46,7 +47,7 @@ p {
     padding-bottom: 2rem;
 }
 
-.btn {
+.heroContainer .btn {
     width: 200px;
     height: 50px;
     border-radius: 1rem;
@@ -60,4 +61,214 @@ p {
     /* line-height: normal; */
     outline: none;
     border: none;
+}
+
+.heroContainer .btn:hover {
+    cursor: pointer;
+    color: #F4CE14;
+    background: #495E57;
+    border: 1px solid #F4CE14;
+}
+
+/* Extra Small Devices (phones) */
+@media only screen and (max-width: 600px) {
+    .heroContainer {
+        height: fit-content;
+        padding: 4rem 1.5rem;
+        align-items: center;
+        gap: 1rem;
+        padding-bottom: 1.3rem;
+    }
+
+    .heroContainer img {
+        object-fit: cover;
+        width: 80%;
+        height: 80%;
+        border-radius: 1rem;
+        position: relative;
+        top: 0;
+    }
+
+    .heroContainer h1 {
+        color: #F4CE14;
+        font-size: 2rem;
+        line-height: auto;
+    }
+
+    .heroContainer h5 {
+        font-size: 1.5rem;
+        line-height: 0.1rem;
+        padding-bottom: 1.3rem;
+    }
+
+    .heroContainer p {
+        font-size: 0.9rem;
+        font-weight: 400;
+        line-height: 1.3rem;
+        padding-bottom: 1rem;
+    }
+
+    .heroContainer .btn {
+        width: 80%;
+        height: auto;
+        padding: 1.2rem 0.5rem;
+    }
+}
+
+/* Small Devices (tablets) */
+@media only screen and (min-width: 601px) and (max-width: 768px) {
+    .heroContainer {
+        height: fit-content;
+        padding: 4rem 1.5rem;
+        align-items: center;
+        gap: 1rem;
+        padding-bottom: 1.3rem;
+    }
+
+    .heroContainer img {
+        object-fit: cover;
+        width: 80%;
+        height: 80%;
+        border-radius: 1rem;
+        position: relative;
+        top: 0;
+    }
+
+    .heroContainer h1 {
+        color: #F4CE14;
+        font-size: 2rem;
+        line-height: auto;
+    }
+
+    .heroContainer h5 {
+        font-size: 1.5rem;
+        line-height: 0.1rem;
+        padding-bottom: 1.3rem;
+    }
+
+    .heroContainer p {
+        font-size: 0.9rem;
+        font-weight: 400;
+        line-height: 1.3rem;
+        padding-bottom: 1rem;
+    }
+
+    .heroContainer .btn {
+        width: 80%;
+        height: auto;
+        padding: 1.2rem 0.5rem;
+    }
+}
+
+/* Medium Devices (desktops) */
+@media only screen and (min-width: 769px) and (max-width: 992px) {
+    .heroContainer {
+        height: fit-content;
+        padding: 4rem 1.5rem;
+        align-items: center;
+        gap: 1rem;
+        padding-bottom: 1.3rem;
+    }
+
+    .heroContainer img {
+        object-fit: cover;
+        width: 80%;
+        height: 80%;
+        border-radius: 1rem;
+        position: relative;
+        top: 0;
+    }
+
+    .heroContainer h1 {
+        color: #F4CE14;
+        font-size: 2rem;
+        line-height: auto;
+    }
+
+    .heroContainer h5 {
+        font-size: 1.5rem;
+        line-height: 0.1rem;
+        padding-bottom: 1.3rem;
+    }
+
+    .heroContainer p {
+        font-size: 0.9rem;
+        font-weight: 400;
+        line-height: 1.3rem;
+        padding-bottom: 1rem;
+    }
+
+    .heroContainer .btn {
+        width: 80%;
+        height: auto;
+        padding: 1.2rem 0.5rem;
+    }
+}
+
+/* Large Devices (desktops) */
+@media only screen and (min-width: 993px) and (max-width: 1200px) {
+    .heroContainer {
+        height: fit-content;
+        padding: 4rem 1.5rem;
+        align-items: center;
+        gap: 1rem;
+        padding-bottom: 1.3rem;
+    }
+
+    .heroContainer img {
+        object-fit: cover;
+        width: 80%;
+        height: 80%;
+        border-radius: 1rem;
+        position: relative;
+        top: 0;
+    }
+
+    .heroContainer h1 {
+        color: #F4CE14;
+        font-size: 2rem;
+        line-height: auto;
+    }
+
+    .heroContainer h5 {
+        font-size: 1.5rem;
+        line-height: 0.1rem;
+        padding-bottom: 1.3rem;
+    }
+
+    .heroContainer p {
+        font-size: 0.9rem;
+        font-weight: 400;
+        line-height: 1.3rem;
+        padding-bottom: 1rem;
+    }
+
+    .heroContainer .btn {
+        width: 80%;
+        height: auto;
+        padding: 1.2rem 0.5rem;
+    }
+}
+
+/* Extra Large Devices (large desktops) */
+@media only screen and (min-width: 1201px) and (max-width: 1400px) {
+    .heroContainer {
+        background: #495E57;
+        height: 65vh;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        padding: 8rem 15rem;
+        justify-items: center;
+        gap: 2rem;
+    }
+
+    .heroContainer img {
+        object-fit: fill;
+        width: 22rem;
+        height: 22rem;
+        border-radius: 26px;
+        position: relative;
+        top: 8rem;
+    }
+
 }
